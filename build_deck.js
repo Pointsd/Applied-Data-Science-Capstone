@@ -272,9 +272,10 @@ s.addText("Innovation: a deployable bid-estimation tool that turns landing proba
 s = p.addSlide(); dark(s);
 s.addText("Appendix & Resources", { x:0.8, y:2.2, w:11.7, h:0.9, fontFace:HFONT, fontSize:34, bold:true, color:WHITE });
 s.addText([
-  {text:"All notebooks (data collection, wrangling, EDA SQL, EDA viz, Folium, Dash, ML):", options:{bullet:false}},
-  {text:GH, options:{bullet:false, color:"7FA0FF"}},
-  {text:"Dataset: SpaceX REST API + Wikipedia launch records (90 Falcon 9 launches).", options:{bullet:false, color:"CADCFC"}},
+  {text:"All notebooks (data collection, wrangling, EDA SQL, EDA viz, Folium, Dash, ML):", options:{bullet:false, breakLine:true}},
+  {text:GH, options:{bullet:false, color:"7FA0FF", breakLine:true}},
+  {text:"", options:{breakLine:true}},
+  {text:"Dataset: SpaceX REST API + Wikipedia launch records (90 Falcon 9 launches).", options:{bullet:false, color:"CADCFC", breakLine:true}},
 ], { x:0.8, y:3.4, w:11.7, h:2.0, fontFace:BFONT, fontSize:16, color:WHITE, lineSpacingMultiple:1.4 });
 s.addText("Thank you!", { x:0.8, y:5.7, w:11.7, h:0.7, fontFace:HFONT, fontSize:24, bold:true, color:ACCENT });
 
